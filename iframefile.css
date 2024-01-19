@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(126, 122, 122);
+}
+body p {
+  font-family: "Times New Roman", Times, serif;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  padding-left: 0.3rem;
+}
+img {
+  height: 13rem;
+  display: flex;
+  flex-direction: row;
+  width: 10rem;
+  padding: 1rem;
+}
+img:hover {
+  transform: scale(0.9);
+  transition: 0.4s;
+}

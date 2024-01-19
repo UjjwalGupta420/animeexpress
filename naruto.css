@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("images/wallpaper2.jpg");
+  background-position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header {
+  background-color: rgb(29, 27, 27);
+  display: flex;
+  height: 4rem;
+  width: 100%;
+}
+ul {
+  display: flex;
+  list-style: none;
+  align-items: flex-end;
+}
+ul #logo {
+  color: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  height: 100%;
+  width: 10rem;
+  align-items: center;
+  justify-content: center;
+}
+ul li {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  padding: 1.4rem;
+}
+ul li a,
+#search,
+button {
+  color: rgb(226, 220, 220);
+  text-decoration: none;
+  padding: 1rem;
+  justify-content: space-between;
+}
+ul li:hover {
+  transition: 0.5s;
+  background-color: rgb(160, 68, 68);
+  border-radius: 1rem;
+  transform: scale(0.6);
+}
+ul #search {
+  padding: 0.5rem;
+  width: 10rem;
+  border: 2px solid black;
+  border-radius: 1rem;
+  color: black;
+  margin-bottom: 1rem;
+  margin-left: 17rem;
+}
+
+#details {
+  padding: 2rem;
+  display: flex;
+}
+#details img {
+  height: 18rem;
+  width: 14rem;
+}
+
+/* Image Div */
+#details .container1 {
+  padding-top: 1rem;
+  color: rgb(128, 89, 89);
+}
+
+#big-container {
+  display: flex;
+}
+#content {
+  padding: 2rem;
+  color: azure;
+  font-style: oblique;
+}
+#content h3 {
+  font-weight: normal;
+}
+#content1 {
+  display: flex;
+  padding: 2rem;
+}
+#content1 .genre {
+  padding-left: 4rem;
+  font-style: oblique;
+  font-weight: bold;
+}
+table {
+  padding: 1.7rem;
+}
+table tr th {
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: rgb(51, 44, 40);
+}
+table tr th:hover {
+  transform: scale(0.9);
+  transition: 0.4s;
+}
+
+table tr th a {
+  text-decoration: none;
+  color: azure;
+}
+
+/* Footer  */
+footer {
+  background-color: rgb(12, 10, 15);
+}
+footer h5 {
+  color: rgb(226, 216, 216);
+  font-family: "Times New Roman", Times, serif;
+  font-style: oblique;
+  padding: 0.3rem;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+}
+footer h6 {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(226, 216, 216);
+  font-style: oblique;
+  text-align: end;
+}
+footer p .fa {
+  font-size: 1.4rem;
+  padding: 0.4rem;
+  border: 1px solid black;
+  border-radius: 40%;
+}
+footer p .fa:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}

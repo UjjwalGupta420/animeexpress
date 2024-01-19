@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("images/wallpaper2.jpg");
+  background-position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header {
+  background-color: rgb(29, 27, 27);
+  display: flex;
+  height: 4rem;
+  width: 100%;
+}
+ul {
+  display: flex;
+  list-style: none;
+  align-items: flex-end;
+}
+ul #logo {
+  color: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  height: 100%;
+  width: 10rem;
+  align-items: center;
+  justify-content: center;
+}
+ul li {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  padding: 1.4rem;
+}
+ul li a,
+#search,
+button {
+  color: rgb(226, 220, 220);
+  text-decoration: none;
+  padding: 1rem;
+  justify-content: space-between;
+}
+ul li:hover {
+  transition: 0.5s;
+  background-color: rgb(160, 68, 68);
+  border-radius: 1rem;
+  transform: scale(0.6);
+}
+ul #search {
+  padding: 0.5rem;
+  width: 10rem;
+  border: 2px solid black;
+  border-radius: 1rem;
+  color: black;
+  margin-bottom: 1rem;
+  margin-left: 17rem;
+}
+table {
+  height: 83rem;
+  width: 83rem;
+  padding: 8rem;
+}
+h1 {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-style: oblique;
+  text-align: center;
+  padding: 1.5rem;
+}
+.details {
+  color: white;
+  font-style: oblique;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding-left: 4rem;
+  padding-bottom: 0.4rem;
+}
+table img {
+  border: 2px solid rgb(134, 130, 130);
+  border-radius: 0.4rem;
+}
+table img:hover {
+  transform: scale(0.9);
+  transition: 0.5s;
+}
+footer {
+  background-color: rgb(12, 10, 15);
+  /* height: 3rem; */
+}
+footer h5 {
+  color: rgb(221, 212, 212);
+  font-family: "Times New Roman", Times, serif;
+  font-style: oblique;
+  padding: 0.3rem;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+}
+footer h6 {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(202, 191, 191);
+  font-style: oblique;
+  text-align: end;
+}
+footer p .fa {
+  font-size: 1.4rem;
+  padding: 0.4rem;
+  border: 1px solid rgb(189, 180, 180);
+  border-radius: 40%;
+}
+footer p .fa:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+@media only screen and (max-width: 1328px) {
+  body {
+    background-image: url("images/wallpaper2.jpg");
+  }
+  header {
+    width: 10000rem;
+  }
+}
